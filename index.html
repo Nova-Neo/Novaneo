@@ -6,7 +6,7 @@
 		max-width: 100%;
 		text-align: center;
 		background-color: #204C88;
-		padding: 5px;
+		padding: 9px;
 		margin-left: -10px;
 		margin-right: -10px;
 		margin-top: -10px;
@@ -18,7 +18,8 @@
 		max-width: 100%;
 		text-align: center;
 		background-color: #204C88;
-		padding: 5px;
+		padding: 9px;
+		padding-bottom: 30px;
 		margin-left: -10px;
 		margin-right: -10px;
 		margin-top: 0px;
@@ -28,7 +29,9 @@
 	body {
 		background-image: url(images/yukari.png);
 		background-attachment: fixed;
-		background-size: auto
+		background-size: cover;
+		background-clip: border-box;
+		background-repeat: no-repeat;
 	}
 	.main {
 		background-color: hsla(217,66%,91%,0.80);
@@ -51,6 +54,11 @@
 		padding-bottom: 7px;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	.social-links {
+		max-width: 100px;
+		max-height: 100px;
+		transition: 0.3s ease;
 	}
 	table, th, td {
     	border: 1px solid black;
@@ -206,6 +214,10 @@
 	
 </body>
 <footer>
-Contact Links:<br>
+	Links:<br>
+	<a href="https://www.youtube.com/channel/UCaN1nMFxqY-pfjljULjg4GQ?view_as=subscriber" class="social-links"><img src="images/links/youtube.png" title="YouTube" alt="YouTube"></a>
+	<a href="https://www.soundcloud.com/novaneo/tracks" class="social-links"><img src="images/links/soundcloud.png" title="SoundCloud" alt="SoundCloud"></a>
+	<a href="https://novaneo.bandcamp.com" class="social-links"><img src="images/links/bandcamp.png" title="Bandcamp" alt="Bandcamp"></a>
+	<a href="https://twitter.com/Josh29Y" class="social-links"><img src="images/links/twitter.png" title="Twitter" alt="Twitter"></a>
 </footer>
 </html>
