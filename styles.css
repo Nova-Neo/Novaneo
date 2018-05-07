@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 	header {
 		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 		max-height: 100px;
@@ -46,9 +45,10 @@
 		padding: 20px;
 	}
 	.label{
-		text-indent: 20px;
+		font-weight: bold;
+		text-indent: 40px;
 		letter-spacing: 20px;
-		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";Arial, "sans-serif";
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 		max-width: 60%;
 		max-height: 15px;
 		background: linear-gradient(to right, #0A2048, #5D7EC4, #0A2048);
