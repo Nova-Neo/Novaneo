@@ -1,76 +1,79 @@
 @charset "utf-8";
 /* CSS Document */
-	header {
-		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		max-height: 100px;
-		max-width: 100%;
-		text-align: center;
-		background: linear-gradient(#0A2048, #5D7EC4);
-		background-position: center;
-		padding: 9px;
-		margin-left: -10px;
-		margin-right: -10px;
-		margin-top: -10px;
-		color: #e5edff;
+header {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	max-height: 100px;
+	max-width: 100%;
+	text-align: center;
+	background: linear-gradient(#0A2048, #5D7EC4);
+	background-position: center;
+	padding: 9px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	color: #e5edff;
 	}
-	footer {
-		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		max-height: 100px;
-		max-width: 100%;
-		text-align: center;
-		background: linear-gradient(#5D7EC4, #0A2048);
-		padding: 9px;
-		padding-bottom: 40px;
-		color: #E2EDFF;
-	}
-	body {
-		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-		color: #5D7EC4;
-		background-image: url(images/style/backdrop.png);
-		background-attachment: fixed;
-		background-size: cover;
-		background-clip: border-box;
-		background-repeat: no-repeat;
-	}
-	.main {
-		background-color: #d0dfff;
-		max-width: 60%;
-		max-height: 100%;
-		margin: auto;
-		text-align: center;
-		padding: 20px;
-	}
-	.label{
-		font-weight: bold;
-		text-indent: 40px;
-		letter-spacing: 20px;
-		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		max-width: 60%;
-		max-height: 15px;
-		background: linear-gradient(to right, #0A2048, #5D7EC4, #0A2048);
-		color: #e5edff;
-		margin: auto;
-		text-align: center;
-		padding-top: 7px;
-		padding-bottom: 7px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.social-links {
-		max-width: 100px;
-		max-height: 100px;
-		transition: 0.3s ease;
-	}
-	table, th, td {
-    	border: solid 1px #5D7EC4;
-		padding: 6px;
-	    border-collapse: collapse;
-		background-color: #e5edff;
+footer {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	max-height: 100px;
+	max-width: 100%;
+	text-align: center;
+	background: linear-gradient(#5D7EC4, #0A2048);
+	padding: 9px;
+	padding-bottom: 40px;
+	color: #E2EDFF;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
 }
-	a:link, a:visited, a:hover {
-		color: #2D5AB4;
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #5D7EC4;
+	background-image: url(images/style/backdrop.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-clip: border-box;
+	background-repeat: no-repeat;
 	}
-	a.navigation {
-		color: #e5edff;
-		text-decoration: none;
-	}
+.main {
+	background-color: #d0dfff;
+	max-width: 60%;
+	max-height: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+}
+.label{
+	font-weight: bold;
+	letter-spacing: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	max-width: 60%;
+	max-height: 15px;
+	background: linear-gradient(to right, #0A2048, #5D7EC4, #0A2048);
+	color: #e5edff;
+	margin: auto;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-indent: 20px;
+}
+.social-links {
+	max-width: 100px;
+	max-height: 100px;
+	transition: 0.3s ease;
+}
+table, th, td {
+	border: solid 1px #5D7EC4;
+	padding: 6px;
+	border-collapse: collapse;
+	background-color: #e5edff;
+}
+a:link, a:visited, a:hover {
+	color: #2D5AB4;
+}
+a.navigation {
+	color: #e5edff;
+	text-decoration: none;
+}
