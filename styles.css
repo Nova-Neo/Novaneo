@@ -18,13 +18,13 @@ footer {
 	max-height: 100px;
 	max-width: 100%;
 	text-align: center;
-	background: linear-gradient(#5D7EC4, #0A2048);
+	background: linear-gradient(#0A2048, #5D7EC4);
+	background-position: center;
 	padding: 9px;
-	padding-bottom: 40px;
-	color: #E2EDFF;
 	margin-left: -10px;
 	margin-right: -10px;
-	margin-bottom: -10px;
+	margin-top: -10px;
+	color: #e5edff;
 }
 body {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
