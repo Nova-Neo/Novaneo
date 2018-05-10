@@ -33,7 +33,7 @@ body {
 	background-size: cover;
 	background-clip: border-box;
 	background-repeat: no-repeat;
-	min-height=80%;
+	min-height: 80%;
 	margin-bottom: -10px;
 	}
 .main {
