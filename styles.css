@@ -13,7 +13,7 @@ header {
 	margin-top: -20px;
 	color: #e5edff;
 	}
-footer, #footer {
+footer {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	max-height: 100px;
 	max-width: 100%;
@@ -21,6 +21,7 @@ footer, #footer {
 	background: linear-gradient(#5D7EC4, #0A2048);
 	background-position: center;
 	padding: 9px;
+	padding-bottom: 18px;
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: -10px;
