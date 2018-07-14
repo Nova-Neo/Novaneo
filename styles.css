@@ -18,7 +18,7 @@ header {
 }
 footer {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	max-height: 200px;
+	max-height: 1000px;
 	max-width: 100%;
 	text-align: center;
 	background: linear-gradient(#5D7EC4, #0A2048);
