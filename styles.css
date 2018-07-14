@@ -84,5 +84,8 @@ a.navigation {
 	text-decoration: none;
 }
 comic {
-	font-family: "Comic Sans MS"
+	font-family: "Comic Sans MS";
+}
+#footer {
+	max-height: 140px;
 }
